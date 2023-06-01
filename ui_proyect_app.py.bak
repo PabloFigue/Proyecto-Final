@@ -1,0 +1,81 @@
+from PySide6.QtCore import QTimer, Qt
+from PySide6.QtWidgets import QMainWindow, QApplication, QCheckBox, QDial
+from ui_proyect import Ui_MainWindow
+import serial
+
+class MainWindow(QMainWindow, Ui_MainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setupUi(self)
+
+        self.serial_port = None
+        self.modo = 0
+        self.send_value = 0
+        self.status = 0
+
+        self.pushButton.clicked.connect(lambda: self.send_data(1))
+        self.pushButton_2.clicked.connect(lambda: self.send_data(2))
+        self.pushButton_3.clicked.connect(lambda: self.send_data(3))
+        self.pushButton_4.clicked.connect(lambda: self.send_data(4))
+        self.pushButton_5.clicked.connect(self.connect_port)
+        self.pushButton_6.clicked.connect(lambda: self.send_data(0))
+        self.pushButton_7.clicked.connect(lambda: self.send_data(5))
+        
+
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.receive_data)
+        self.timer.start(100)
+        
+        # Checkbox
+        self.checkBox.stateChanged.connect(self.checked)
+
+        # Dial
+        self.dial.valueChanged.connect(self.send_dial_value)
+
+    def checked(self, state):
+            self.modo = self.modo ^ 1
+
+    def send_dial_value(self, value):
+        self.send_value = (value + 2)*3
+        if self.modo == 1:  # Modo DIAL
+            if self.serial_port is not None:
+                binary_data_s = bytes([self.send_value])
+                self.serial_port.write(binary_data_s)
+
+    def connect_port(self):
+        if self.status == 0:
+            port_name = self.comboBox.currentText()
+            try:
+                self.serial_port = serial.Serial(port_name, 9600)
+                self.status = 1
+            except serial.SerialException as e:
+                self.statusbar.showMessage(str(e))
+                self.status = 0
+        else:
+            self.close_port()
+
+    def send_data(self, value):
+        if self.modo == 0:  # Modo MANUAL
+            if self.serial_port is not None:
+                binary_data_s = bytes([value])
+                self.serial_port.write(binary_data_s)
+                
+    def receive_data(self):
+        if self.serial_port is not None:
+            binary_data = self.serial_port.read_all()
+            if binary_data:
+                binary_string = ' '.join(format(byte, '08b') for byte in binary_data)
+                self.textBrowser.append(binary_string)
+
+
+    def close_port(self):
+        if self.serial_port is not None:
+            self.serial_port.close()
+            self.serial_port = None
+            self.status = 0
+
+if __name__ == '__main__':
+    app = QApplication([])
+    window = MainWindow()
+    window.show()
+    app.exec()

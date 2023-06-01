@@ -1,0 +1,2135 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"3592 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3592: extern volatile __bit ADIF __attribute__((address(0x66)));
+[v _ADIF `Vb ~T0 @X0 0 e@102 ]
+"1252
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1252:     struct {
+[s S45 :1 `uc 1 :1 `uc 1 :4 `uc 1 :2 `uc 1 ]
+[n S45 . ADON GO_nDONE CHS ADCS ]
+"1258
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1258:     struct {
+[s S46 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S46 . . GO CHS0 CHS1 CHS2 CHS3 ADCS0 ADCS1 ]
+"1268
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1268:     struct {
+[s S47 :1 `uc 1 :1 `uc 1 ]
+[n S47 . . nDONE ]
+"1272
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1272:     struct {
+[s S48 :1 `uc 1 :1 `uc 1 ]
+[n S48 . . GO_DONE ]
+"1251
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1251: typedef union {
+[u S44 `S45 1 `S46 1 `S47 1 `S48 1 ]
+[n S44 . . . . . ]
+"1277
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1277: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0x01F)));
+[v _ADCON0bits `VS44 ~T0 @X0 0 e@31 ]
+"1239
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1239: extern volatile unsigned char ADRESH __attribute__((address(0x01E)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"544
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 544:     struct {
+[s S19 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S19 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"543
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 543: typedef union {
+[u S18 `S19 1 ]
+[n S18 . . ]
+"554
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 554: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x00C)));
+[v _PIR1bits `VS18 ~T0 @X0 0 e@12 ]
+"4180
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4180: extern volatile __bit RCIF __attribute__((address(0x65)));
+[v _RCIF `Vb ~T0 @X0 0 e@101 ]
+"1141
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1141: extern volatile unsigned char RCREG __attribute__((address(0x01A)));
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"84 Proyecto_Micros.c
+[; ;Proyecto_Micros.c: 84: uint8_t map(uint8_t valor, uint8_t rango_min, uint8_t rango_max, uint8_t nuevo_min, uint8_t nuevo_max);
+[v _map `(uc ~T0 @X0 0 ef5`uc`uc`uc`uc`uc ]
+"353 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 353: extern volatile unsigned char PORTD __attribute__((address(0x008)));
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"4135
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4135: extern volatile __bit RBIF __attribute__((address(0x58)));
+[v _RBIF `Vb ~T0 @X0 0 e@88 ]
+"4108
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4108: extern volatile __bit RB0 __attribute__((address(0x30)));
+[v _RB0 `Vb ~T0 @X0 0 e@48 ]
+"4111
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4111: extern volatile __bit RB1 __attribute__((address(0x31)));
+[v _RB1 `Vb ~T0 @X0 0 e@49 ]
+"4114
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4114: extern volatile __bit RB2 __attribute__((address(0x32)));
+[v _RB2 `Vb ~T0 @X0 0 e@50 ]
+"4117
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4117: extern volatile __bit RB3 __attribute__((address(0x33)));
+[v _RB3 `Vb ~T0 @X0 0 e@51 ]
+"4120
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4120: extern volatile __bit RB4 __attribute__((address(0x34)));
+[v _RB4 `Vb ~T0 @X0 0 e@52 ]
+"90 Proyecto_Micros.c
+[; ;Proyecto_Micros.c: 90: uint8_t read_EEPROM(uint8_t address);
+[v _read_EEPROM `(uc ~T0 @X0 0 ef1`uc ]
+"89
+[; ;Proyecto_Micros.c: 89: void write_EEPROM(uint8_t address, uint8_t data);
+[v _write_EEPROM `(v ~T0 @X0 0 ef2`uc`uc ]
+[p mainexit ]
+"91
+[; ;Proyecto_Micros.c: 91: void setup(void);
+[v _setup `(v ~T0 @X0 0 ef ]
+"415 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 415: extern volatile unsigned char PORTE __attribute__((address(0x009)));
+[v _PORTE `Vuc ~T0 @X0 0 e@9 ]
+"15 ./PWM_Library.h
+[; ;./PWM_Library.h: 15: void PWM_config(int canal, float periodo_ms);
+[v _PWM_config `(v ~T0 @X0 0 ef2`i`f ]
+"17
+[; ;./PWM_Library.h: 17: void PWM_manual_config(float periodo_ms);
+[v _PWM_manual_config `(v ~T0 @X0 0 ef1`f ]
+"85 Proyecto_Micros.c
+[; ;Proyecto_Micros.c: 85: void modo_automatico(void);
+[v _modo_automatico `(v ~T0 @X0 0 ef ]
+"779 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 779:     struct {
+[s S27 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S27 . T2CKPS TMR2ON TOUTPS ]
+"784
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 784:     struct {
+[s S28 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S28 . T2CKPS0 T2CKPS1 . TOUTPS0 TOUTPS1 TOUTPS2 TOUTPS3 ]
+"778
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 778: typedef union {
+[u S26 `S27 1 `S28 1 ]
+[n S26 . . . ]
+"794
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 794: extern volatile T2CONbits_t T2CONbits __attribute__((address(0x012)));
+[v _T2CONbits `VS26 ~T0 @X0 0 e@18 ]
+"1869
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1869:     struct {
+[s S70 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 ]
+[n S70 . SCS LTS HTS OSTS IRCF ]
+"1876
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1876:     struct {
+[s S71 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S71 . . IRCF0 IRCF1 IRCF2 ]
+"1868
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1868: typedef union {
+[u S69 `S70 1 `S71 1 ]
+[n S69 . . . ]
+"1883
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1883: extern volatile OSCCONbits_t OSCCONbits __attribute__((address(0x08F)));
+[v _OSCCONbits `VS69 ~T0 @X0 0 e@143 ]
+"291
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 291: extern volatile unsigned char PORTC __attribute__((address(0x007)));
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"87 Proyecto_Micros.c
+[; ;Proyecto_Micros.c: 87: void modo_manual(void);
+[v _modo_manual `(v ~T0 @X0 0 ef ]
+"92
+[; ;Proyecto_Micros.c: 92: void initUART(void);
+[v _initUART `(v ~T0 @X0 0 ef ]
+"88
+[; ;Proyecto_Micros.c: 88: void modo_uart(void);
+[v _modo_uart `(v ~T0 @X0 0 ef ]
+"1709 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1709:     struct {
+[s S63 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S63 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1708
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1708: typedef union {
+[u S62 `S63 1 ]
+[n S62 . . ]
+"1719
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1719: extern volatile PIE1bits_t PIE1bits __attribute__((address(0x08C)));
+[v _PIE1bits `VS62 ~T0 @X0 0 e@140 ]
+"1045
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1045:     struct {
+[s S37 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S37 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"1055
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1055:     struct {
+[s S38 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S38 . RCD8 . RC9 ]
+"1060
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1060:     struct {
+[s S39 :6 `uc 1 :1 `uc 1 ]
+[n S39 . . nRC8 ]
+"1064
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1064:     struct {
+[s S40 :6 `uc 1 :1 `uc 1 ]
+[n S40 . . RC8_9 ]
+"1044
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1044: typedef union {
+[u S36 `S37 1 `S38 1 `S39 1 `S40 1 ]
+[n S36 . . . . . ]
+"1069
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1069: extern volatile RCSTAbits_t RCSTAbits __attribute__((address(0x018)));
+[v _RCSTAbits `VS36 ~T0 @X0 0 e@24 ]
+"18 ./PWM_Library.h
+[; ;./PWM_Library.h: 18: void PWM_manual(int limite_pot, int puerto);
+[v _PWM_manual `(v ~T0 @X0 0 ef2`i`i ]
+"16
+[; ;./PWM_Library.h: 16: void PWM_duty (int canal, int DutyCycle);
+[v _PWM_duty `(v ~T0 @X0 0 ef2`i`i ]
+"1134 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1134: extern volatile unsigned char TXREG __attribute__((address(0x019)));
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+"2643
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2643: extern volatile unsigned char SPBRG __attribute__((address(0x099)));
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"2705
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2705: extern volatile unsigned char SPBRGH __attribute__((address(0x09A)));
+[v _SPBRGH `Vuc ~T0 @X0 0 e@154 ]
+"3700
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3700: extern volatile __bit BRGH __attribute__((address(0x4C2)));
+[v _BRGH `Vb ~T0 @X0 0 e@1218 ]
+"3673
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3673: extern volatile __bit BRG16 __attribute__((address(0xC3B)));
+[v _BRG16 `Vb ~T0 @X0 0 e@3131 ]
+"4318
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4318: extern volatile __bit SYNC __attribute__((address(0x4C4)));
+[v _SYNC `Vb ~T0 @X0 0 e@1220 ]
+"4264
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4264: extern volatile __bit SPEN __attribute__((address(0xC7)));
+[v _SPEN `Vb ~T0 @X0 0 e@199 ]
+"4543
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4543: extern volatile __bit TXEN __attribute__((address(0x4C5)));
+[v _TXEN `Vb ~T0 @X0 0 e@1221 ]
+"4549
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4549: extern volatile __bit TXIF __attribute__((address(0x64)));
+[v _TXIF `Vb ~T0 @X0 0 e@100 ]
+"3841
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3841: extern volatile __bit CREN __attribute__((address(0xC4)));
+[v _CREN `Vb ~T0 @X0 0 e@196 ]
+"3450
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3450: extern volatile unsigned char ANSELH __attribute__((address(0x189)));
+[v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
+"1479
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1479: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"1603
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1603: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"1665
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1665: extern volatile unsigned char TRISE __attribute__((address(0x089)));
+[v _TRISE `Vuc ~T0 @X0 0 e@137 ]
+"167
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 167: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"1353
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1353:     struct {
+[s S50 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S50 . PS PSA T0SE T0CS INTEDG nRBPU ]
+"1361
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1361:     struct {
+[s S51 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S51 . PS0 PS1 PS2 ]
+"1352
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1352: typedef union {
+[u S49 `S50 1 `S51 1 ]
+[n S49 . . . ]
+"1367
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1367: extern volatile OPTION_REGbits_t OPTION_REGbits __attribute__((address(0x081)));
+[v _OPTION_REGbits `VS49 ~T0 @X0 0 e@129 ]
+"2347
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2347: extern volatile unsigned char WPUB __attribute__((address(0x095)));
+[v _WPUB `Vuc ~T0 @X0 0 e@149 ]
+"2417
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2417: extern volatile unsigned char IOCB __attribute__((address(0x096)));
+[v _IOCB `Vuc ~T0 @X0 0 e@150 ]
+"466
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 466:     struct {
+[s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S16 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"476
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 476:     struct {
+[s S17 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S17 . . TMR0IF . TMR0IE ]
+"465
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 465: typedef union {
+[u S15 `S16 1 `S17 1 ]
+[n S15 . . . ]
+"483
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 483: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS15 ~T0 @X0 0 e@11 ]
+"3388
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3388: extern volatile unsigned char ANSEL __attribute__((address(0x188)));
+[v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
+"1417
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1417: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"2984
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2984:     struct {
+[s S116 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S116 . . VCFG0 VCFG1 . ADFM ]
+"2983
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2983: typedef union {
+[u S115 `S116 1 ]
+[n S115 . . ]
+"2992
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2992: extern volatile ADCON1bits_t ADCON1bits __attribute__((address(0x09F)));
+[v _ADCON1bits `VS115 ~T0 @X0 0 e@159 ]
+"4633
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4633: extern volatile __bit WR __attribute__((address(0xC61)));
+[v _WR `Vb ~T0 @X0 0 e@3169 ]
+"3258
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3258: extern volatile unsigned char EEADR __attribute__((address(0x10D)));
+[v _EEADR `Vuc ~T0 @X0 0 e@269 ]
+"3251
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3251: extern volatile unsigned char EEDAT __attribute__((address(0x10C)));
+[v _EEDAT `Vuc ~T0 @X0 0 e@268 ]
+"3506
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3506:     struct {
+[s S137 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S137 . RD WR WREN WRERR . EEPGD ]
+"3505
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3505: typedef union {
+[u S136 `S137 1 ]
+[n S136 . . ]
+"3515
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3515: extern volatile EECON1bits_t EECON1bits __attribute__((address(0x18C)));
+[v _EECON1bits `VS136 ~T0 @X0 0 e@396 ]
+"3545
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3545: extern volatile unsigned char EECON2 __attribute__((address(0x18D)));
+[v _EECON2 `Vuc ~T0 @X0 0 e@397 ]
+"4183
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 4183: extern volatile __bit RD __attribute__((address(0xC60)));
+[v _RD `Vb ~T0 @X0 0 e@3168 ]
+"33 Proyecto_Micros.c
+[p x FOSC  =  INTRC_NOCLKOUT ]
+"34
+[p x WDTE  =  OFF        ]
+"35
+[p x PWRTE  =  OFF       ]
+"36
+[p x MCLRE  =  OFF        ]
+"37
+[p x CP  =  OFF           ]
+"38
+[p x CPD  =  OFF         ]
+"39
+[p x BOREN  =  OFF       ]
+"40
+[p x IESO  =  OFF        ]
+"41
+[p x FCMEN  =  OFF       ]
+"42
+[p x LVP  =  OFF         ]
+"45
+[p x BOR4V  =  BOR40V    ]
+"46
+[p x WRT  =  OFF         ]
+"55 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"62
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 62: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"69
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 69: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"76
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 76: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"162
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 162: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"169
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 169: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"231
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 231: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"293
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 293: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"355
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 355: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"417
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 417: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"455
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 455: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"462
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 462: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"540
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 540: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"653
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 653: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"660
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 660: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"667
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 667: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"674
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 674: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"768
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 768: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"775
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 775: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"846
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 846: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"853
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 853: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"923
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 923: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"930
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 930: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"937
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 937: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"944
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 944: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"1041
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1041: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1136
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1136: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1143
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1143: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1150
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1150: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1157
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1157: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1164
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1164: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1171
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1171: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1241
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1241: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1248
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1248: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1349
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1349: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1419
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1419: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1481
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1481: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1543
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1543: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1605
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1605: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1667
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1667: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1705
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1705: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1761
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1761: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1818
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1818: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1865
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1865: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1930
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1930: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1982
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 1982: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"2044
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2044: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"2051
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2051: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"2058
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2058: __asm("SSPMSK equ 093h");
+[; <" SSPMSK equ 093h ;# ">
+"2063
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2063: __asm("MSK equ 093h");
+[; <" MSK equ 093h ;# ">
+"2180
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2180: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2349
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2349: __asm("WPUB equ 095h");
+[; <" WPUB equ 095h ;# ">
+"2419
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2419: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"2489
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2489: __asm("VRCON equ 097h");
+[; <" VRCON equ 097h ;# ">
+"2559
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2559: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2645
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2645: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2707
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2707: __asm("SPBRGH equ 09Ah");
+[; <" SPBRGH equ 09Ah ;# ">
+"2777
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2777: __asm("PWM1CON equ 09Bh");
+[; <" PWM1CON equ 09Bh ;# ">
+"2847
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2847: __asm("ECCPAS equ 09Ch");
+[; <" ECCPAS equ 09Ch ;# ">
+"2929
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2929: __asm("PSTRCON equ 09Dh");
+[; <" PSTRCON equ 09Dh ;# ">
+"2973
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2973: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2980
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 2980: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"3014
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3014: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"3067
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3067: __asm("CM1CON0 equ 0107h");
+[; <" CM1CON0 equ 0107h ;# ">
+"3132
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3132: __asm("CM2CON0 equ 0108h");
+[; <" CM2CON0 equ 0108h ;# ">
+"3197
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3197: __asm("CM2CON1 equ 0109h");
+[; <" CM2CON1 equ 0109h ;# ">
+"3248
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3248: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"3253
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3253: __asm("EEDAT equ 010Ch");
+[; <" EEDAT equ 010Ch ;# ">
+"3260
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3260: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"3267
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3267: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"3274
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3274: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"3281
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3281: __asm("SRCON equ 0185h");
+[; <" SRCON equ 0185h ;# ">
+"3338
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3338: __asm("BAUDCTL equ 0187h");
+[; <" BAUDCTL equ 0187h ;# ">
+"3390
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3390: __asm("ANSEL equ 0188h");
+[; <" ANSEL equ 0188h ;# ">
+"3452
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3452: __asm("ANSELH equ 0189h");
+[; <" ANSELH equ 0189h ;# ">
+"3502
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3502: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"3547
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h: 3547: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"65 Proyecto_Micros.c
+[; ;Proyecto_Micros.c: 65: uint8_t status = 0;
+[v _status `uc ~T0 @X0 1 e ]
+[i _status
+-> -> 0 `i `uc
+]
+"66
+[; ;Proyecto_Micros.c: 66: uint8_t modo_funcionamiento = 0;
+[v _modo_funcionamiento `uc ~T0 @X0 1 e ]
+[i _modo_funcionamiento
+-> -> 0 `i `uc
+]
+"67
+[; ;Proyecto_Micros.c: 67: uint8_t activador_modo = 0;
+[v _activador_modo `uc ~T0 @X0 1 e ]
+[i _activador_modo
+-> -> 0 `i `uc
+]
+"68
+[; ;Proyecto_Micros.c: 68: uint8_t val_potenciometro = 0;
+[v _val_potenciometro `uc ~T0 @X0 1 e ]
+[i _val_potenciometro
+-> -> 0 `i `uc
+]
+"69
+[; ;Proyecto_Micros.c: 69: uint8_t lectura_escritura_ENABLE = 0;
+[v _lectura_escritura_ENABLE `uc ~T0 @X0 1 e ]
+[i _lectura_escritura_ENABLE
+-> -> 0 `i `uc
+]
+"70
+[; ;Proyecto_Micros.c: 70: uint8_t bandera1 = 0,bandera2 = 0,bandera3 = 0;
+[v _bandera1 `uc ~T0 @X0 1 e ]
+[i _bandera1
+-> -> 0 `i `uc
+]
+[v _bandera2 `uc ~T0 @X0 1 e ]
+[i _bandera2
+-> -> 0 `i `uc
+]
+[v _bandera3 `uc ~T0 @X0 1 e ]
+[i _bandera3
+-> -> 0 `i `uc
+]
+"74
+[; ;Proyecto_Micros.c: 74: int adc00 = 0, adc01 = 0, adc11 = 0, adc10=0;
+[v _adc00 `i ~T0 @X0 1 e ]
+[i _adc00
+-> 0 `i
+]
+[v _adc01 `i ~T0 @X0 1 e ]
+[i _adc01
+-> 0 `i
+]
+[v _adc11 `i ~T0 @X0 1 e ]
+[i _adc11
+-> 0 `i
+]
+[v _adc10 `i ~T0 @X0 1 e ]
+[i _adc10
+-> 0 `i
+]
+"75
+[; ;Proyecto_Micros.c: 75: int valor_mapeado0 = 0, valor_mapeado1 = 0, valor_mapeado2 =0 , valor_mapeado3= 0;
+[v _valor_mapeado0 `i ~T0 @X0 1 e ]
+[i _valor_mapeado0
+-> 0 `i
+]
+[v _valor_mapeado1 `i ~T0 @X0 1 e ]
+[i _valor_mapeado1
+-> 0 `i
+]
+[v _valor_mapeado2 `i ~T0 @X0 1 e ]
+[i _valor_mapeado2
+-> 0 `i
+]
+[v _valor_mapeado3 `i ~T0 @X0 1 e ]
+[i _valor_mapeado3
+-> 0 `i
+]
+"76
+[; ;Proyecto_Micros.c: 76: uint8_t address0 = 0x04;
+[v _address0 `uc ~T0 @X0 1 e ]
+[i _address0
+-> -> 4 `i `uc
+]
+"77
+[; ;Proyecto_Micros.c: 77: uint8_t address1 = 0x05;
+[v _address1 `uc ~T0 @X0 1 e ]
+[i _address1
+-> -> 5 `i `uc
+]
+"78
+[; ;Proyecto_Micros.c: 78: uint8_t address2 = 0x06;
+[v _address2 `uc ~T0 @X0 1 e ]
+[i _address2
+-> -> 6 `i `uc
+]
+"79
+[; ;Proyecto_Micros.c: 79: uint8_t address3 = 0x07;
+[v _address3 `uc ~T0 @X0 1 e ]
+[i _address3
+-> -> 7 `i `uc
+]
+"80
+[; ;Proyecto_Micros.c: 80: uint8_t valorDIAL,valorSLIDE;
+[v _valorDIAL `uc ~T0 @X0 1 e ]
+[v _valorSLIDE `uc ~T0 @X0 1 e ]
+"81
+[; ;Proyecto_Micros.c: 81: uint8_t selectSERVO = 0;
+[v _selectSERVO `uc ~T0 @X0 1 e ]
+[i _selectSERVO
+-> -> 0 `i `uc
+]
+[v $root$_isr `(v ~T0 @X0 0 e ]
+"96
+[; ;Proyecto_Micros.c: 96: void __attribute__((picinterrupt(("")))) isr(void) {
+[v _isr `(v ~T1 @X0 1 ef ]
+{
+[e :U _isr ]
+[f ]
+"106
+[; ;Proyecto_Micros.c: 106:     if (ADIF){
+[e $ ! _ADIF 144  ]
+{
+"107
+[; ;Proyecto_Micros.c: 107:         if (ADCON0bits.CHS == 0b0000) {
+[e $ ! == -> . . _ADCON0bits 0 2 `i -> 0 `i 145  ]
+{
+"108
+[; ;Proyecto_Micros.c: 108:             adc00 = ADRESH;
+[e = _adc00 -> _ADRESH `i ]
+"109
+[; ;Proyecto_Micros.c: 109:             ADCON0bits.CHS = 0b0001;
+[e = . . _ADCON0bits 0 2 -> -> 1 `i `uc ]
+"110
+[; ;Proyecto_Micros.c: 110:         } else if (ADCON0bits.CHS == 0b0001){
+}
+[e $U 146  ]
+[e :U 145 ]
+[e $ ! == -> . . _ADCON0bits 0 2 `i -> 1 `i 147  ]
+{
+"111
+[; ;Proyecto_Micros.c: 111:             adc01 = ADRESH;
+[e = _adc01 -> _ADRESH `i ]
+"112
+[; ;Proyecto_Micros.c: 112:             ADCON0bits.CHS = 0b0010;
+[e = . . _ADCON0bits 0 2 -> -> 2 `i `uc ]
+"113
+[; ;Proyecto_Micros.c: 113:         } else if (ADCON0bits.CHS == 0b0010){
+}
+[e $U 148  ]
+[e :U 147 ]
+[e $ ! == -> . . _ADCON0bits 0 2 `i -> 2 `i 149  ]
+{
+"114
+[; ;Proyecto_Micros.c: 114:             adc10 = ADRESH;
+[e = _adc10 -> _ADRESH `i ]
+"115
+[; ;Proyecto_Micros.c: 115:             ADCON0bits.CHS = 0b0011;
+[e = . . _ADCON0bits 0 2 -> -> 3 `i `uc ]
+"116
+[; ;Proyecto_Micros.c: 116:         } else if (ADCON0bits.CHS == 0b0011){
+}
+[e $U 150  ]
+[e :U 149 ]
+[e $ ! == -> . . _ADCON0bits 0 2 `i -> 3 `i 151  ]
+{
+"117
+[; ;Proyecto_Micros.c: 117:             adc11 = ADRESH;
+[e = _adc11 -> _ADRESH `i ]
+"118
+[; ;Proyecto_Micros.c: 118:             ADCON0bits.CHS = 0b0000;
+[e = . . _ADCON0bits 0 2 -> -> 0 `i `uc ]
+"119
+[; ;Proyecto_Micros.c: 119:         }
+}
+[e :U 151 ]
+[e :U 150 ]
+[e :U 148 ]
+[e :U 146 ]
+"120
+[; ;Proyecto_Micros.c: 120:         PIR1bits.ADIF = 0;
+[e = . . _PIR1bits 0 6 -> -> 0 `i `uc ]
+"121
+[; ;Proyecto_Micros.c: 121:     }
+}
+[e :U 144 ]
+"125
+[; ;Proyecto_Micros.c: 125:     if(RCIF){
+[e $ ! _RCIF 152  ]
+{
+"126
+[; ;Proyecto_Micros.c: 126:         if (modo_funcionamiento == 2 && activador_modo == 1){
+[e $ ! && == -> _modo_funcionamiento `i -> 2 `i == -> _activador_modo `i -> 1 `i 153  ]
+{
+"128
+[; ;Proyecto_Micros.c: 128:             valorDIAL = RCREG;
+[e = _valorDIAL _RCREG ]
+"129
+[; ;Proyecto_Micros.c: 129:             _delay((unsigned long)((2)*(500000/4000000.0)));
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 500000 `l `d .4000000.0 `ul ]
+"131
+[; ;Proyecto_Micros.c: 131:             if (valorDIAL == 0){
+[e $ ! == -> _valorDIAL `i -> 0 `i 154  ]
+{
+"132
+[; ;Proyecto_Micros.c: 132:                 if (selectSERVO == 1){
+[e $ ! == -> _selectSERVO `i -> 1 `i 155  ]
+{
+"133
+[; ;Proyecto_Micros.c: 133:                     valor_mapeado0 = 25;
+[e = _valor_mapeado0 -> 25 `i ]
+"134
+[; ;Proyecto_Micros.c: 134:                 }else if (selectSERVO == 2){
+}
+[e $U 156  ]
+[e :U 155 ]
+[e $ ! == -> _selectSERVO `i -> 2 `i 157  ]
+{
+"135
+[; ;Proyecto_Micros.c: 135:                     valor_mapeado1 = 20;
+[e = _valor_mapeado1 -> 20 `i ]
+"136
+[; ;Proyecto_Micros.c: 136:                 }else if (selectSERVO == 3){
+}
+[e $U 158  ]
+[e :U 157 ]
+[e $ ! == -> _selectSERVO `i -> 3 `i 159  ]
+{
+"137
+[; ;Proyecto_Micros.c: 137:                     valor_mapeado2 = 20;
+[e = _valor_mapeado2 -> 20 `i ]
+"138
+[; ;Proyecto_Micros.c: 138:                 }else if (selectSERVO == 4){
+}
+[e $U 160  ]
+[e :U 159 ]
+[e $ ! == -> _selectSERVO `i -> 4 `i 161  ]
+{
+"139
+[; ;Proyecto_Micros.c: 139:                     valor_mapeado3 = 25;
+[e = _valor_mapeado3 -> 25 `i ]
+"140
+[; ;Proyecto_Micros.c: 140:                 }
+}
+[e :U 161 ]
+[e :U 160 ]
+[e :U 158 ]
+[e :U 156 ]
+"141
+[; ;Proyecto_Micros.c: 141:             }else if (valorDIAL == 1){
+}
+[e $U 162  ]
+[e :U 154 ]
+[e $ ! == -> _valorDIAL `i -> 1 `i 163  ]
+{
+"142
+[; ;Proyecto_Micros.c: 142:                 selectSERVO = 1;
+[e = _selectSERVO -> -> 1 `i `uc ]
+"143
+[; ;Proyecto_Micros.c: 143:             }else if (valorDIAL == 2){
+}
+[e $U 164  ]
+[e :U 163 ]
+[e $ ! == -> _valorDIAL `i -> 2 `i 165  ]
+{
+"144
+[; ;Proyecto_Micros.c: 144:                 selectSERVO = 2;
+[e = _selectSERVO -> -> 2 `i `uc ]
+"145
+[; ;Proyecto_Micros.c: 145:             }else if (valorDIAL == 3){
+}
+[e $U 166  ]
+[e :U 165 ]
+[e $ ! == -> _valorDIAL `i -> 3 `i 167  ]
+{
+"146
+[; ;Proyecto_Micros.c: 146:                 selectSERVO = 3;
+[e = _selectSERVO -> -> 3 `i `uc ]
+"147
+[; ;Proyecto_Micros.c: 147:             }else if (valorDIAL == 4){
+}
+[e $U 168  ]
+[e :U 167 ]
+[e $ ! == -> _valorDIAL `i -> 4 `i 169  ]
+{
+"148
+[; ;Proyecto_Micros.c: 148:                 selectSERVO = 4;
+[e = _selectSERVO -> -> 4 `i `uc ]
+"149
+[; ;Proyecto_Micros.c: 149:             }else if (valorDIAL == 5){
+}
+[e $U 170  ]
+[e :U 169 ]
+[e $ ! == -> _valorDIAL `i -> 5 `i 171  ]
+{
+"150
+[; ;Proyecto_Micros.c: 150:                 if (selectSERVO == 1){
+[e $ ! == -> _selectSERVO `i -> 1 `i 172  ]
+{
+"151
+[; ;Proyecto_Micros.c: 151:                     valor_mapeado0 = 60;
+[e = _valor_mapeado0 -> 60 `i ]
+"152
+[; ;Proyecto_Micros.c: 152:                 }else if (selectSERVO == 2){
+}
+[e $U 173  ]
+[e :U 172 ]
+[e $ ! == -> _selectSERVO `i -> 2 `i 174  ]
+{
+"153
+[; ;Proyecto_Micros.c: 153:                     valor_mapeado1 = 42;
+[e = _valor_mapeado1 -> 42 `i ]
+"154
+[; ;Proyecto_Micros.c: 154:                 }else if (selectSERVO == 3){
+}
+[e $U 175  ]
+[e :U 174 ]
+[e $ ! == -> _selectSERVO `i -> 3 `i 176  ]
+{
+"155
+[; ;Proyecto_Micros.c: 155:                     valor_mapeado2 = 80;
+[e = _valor_mapeado2 -> 80 `i ]
+"156
+[; ;Proyecto_Micros.c: 156:                 }else if (selectSERVO == 4){
+}
+[e $U 177  ]
+[e :U 176 ]
+[e $ ! == -> _selectSERVO `i -> 4 `i 178  ]
+{
+"157
+[; ;Proyecto_Micros.c: 157:                     valor_mapeado3 = 60;
+[e = _valor_mapeado3 -> 60 `i ]
+"158
+[; ;Proyecto_Micros.c: 158:                 }
+}
+[e :U 178 ]
+[e :U 177 ]
+[e :U 175 ]
+[e :U 173 ]
+"159
+[; ;Proyecto_Micros.c: 159:             } else {
+}
+[e $U 179  ]
+[e :U 171 ]
+{
+"160
+[; ;Proyecto_Micros.c: 160:                 if (selectSERVO == 1){
+[e $ ! == -> _selectSERVO `i -> 1 `i 180  ]
+{
+"161
+[; ;Proyecto_Micros.c: 161:                     valor_mapeado0 = map(valorDIAL,0,255,30,60);
+[e = _valor_mapeado0 -> ( _map (4 , , , , _valorDIAL -> -> 0 `i `uc -> -> 255 `i `uc -> -> 30 `i `uc -> -> 60 `i `uc `i ]
+"162
+[; ;Proyecto_Micros.c: 162:                 }else if (selectSERVO == 2){
+}
+[e $U 181  ]
+[e :U 180 ]
+[e $ ! == -> _selectSERVO `i -> 2 `i 182  ]
+{
+"163
+[; ;Proyecto_Micros.c: 163:                       valor_mapeado1 = map(valorDIAL,0,255,30,43);
+[e = _valor_mapeado1 -> ( _map (4 , , , , _valorDIAL -> -> 0 `i `uc -> -> 255 `i `uc -> -> 30 `i `uc -> -> 43 `i `uc `i ]
+"164
+[; ;Proyecto_Micros.c: 164:                 }else if (selectSERVO == 3){
+}
+[e $U 183  ]
+[e :U 182 ]
+[e $ ! == -> _selectSERVO `i -> 3 `i 184  ]
+{
+"165
+[; ;Proyecto_Micros.c: 165:                     valor_mapeado2 = map(valorDIAL,0,255,20,80);
+[e = _valor_mapeado2 -> ( _map (4 , , , , _valorDIAL -> -> 0 `i `uc -> -> 255 `i `uc -> -> 20 `i `uc -> -> 80 `i `uc `i ]
+"166
+[; ;Proyecto_Micros.c: 166:                 }else if (selectSERVO == 4){
+}
+[e $U 185  ]
+[e :U 184 ]
+[e $ ! == -> _selectSERVO `i -> 4 `i 186  ]
+{
+"167
+[; ;Proyecto_Micros.c: 167:                     valor_mapeado3 = map(valorDIAL,0,255,25,60);
+[e = _valor_mapeado3 -> ( _map (4 , , , , _valorDIAL -> -> 0 `i `uc -> -> 255 `i `uc -> -> 25 `i `uc -> -> 60 `i `uc `i ]
+"168
+[; ;Proyecto_Micros.c: 168:                 }
+}
+[e :U 186 ]
+[e :U 185 ]
+[e :U 183 ]
+[e :U 181 ]
+"169
+[; ;Proyecto_Micros.c: 169:             }
+}
+[e :U 179 ]
+[e :U 170 ]
+[e :U 168 ]
+[e :U 166 ]
+[e :U 164 ]
+[e :U 162 ]
+"171
+[; ;Proyecto_Micros.c: 171:         } else if (modo_funcionamiento == 3 && activador_modo == 1){
+}
+[e $U 187  ]
+[e :U 153 ]
+[e $ ! && == -> _modo_funcionamiento `i -> 3 `i == -> _activador_modo `i -> 1 `i 188  ]
+{
+"172
+[; ;Proyecto_Micros.c: 172:             valorSLIDE = RCREG;
+[e = _valorSLIDE _RCREG ]
+"173
+[; ;Proyecto_Micros.c: 173:             _delay((unsigned long)((2)*(500000/4000000.0)));
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 500000 `l `d .4000000.0 `ul ]
+"175
+[; ;Proyecto_Micros.c: 175:             if (valorSLIDE == 0){
+[e $ ! == -> _valorSLIDE `i -> 0 `i 189  ]
+{
+"176
+[; ;Proyecto_Micros.c: 176:                 status = 0;
+[e = _status -> -> 0 `i `uc ]
+"177
+[; ;Proyecto_Micros.c: 177:             }else if (valorSLIDE == 1){
+}
+[e $U 190  ]
+[e :U 189 ]
+[e $ ! == -> _valorSLIDE `i -> 1 `i 191  ]
+{
+"178
+[; ;Proyecto_Micros.c: 178:                 selectSERVO = 1;
+[e = _selectSERVO -> -> 1 `i `uc ]
+"179
+[; ;Proyecto_Micros.c: 179:             }else if (valorSLIDE == 2){
+}
+[e $U 192  ]
+[e :U 191 ]
+[e $ ! == -> _valorSLIDE `i -> 2 `i 193  ]
+{
+"180
+[; ;Proyecto_Micros.c: 180:                 selectSERVO = 2;
+[e = _selectSERVO -> -> 2 `i `uc ]
+"181
+[; ;Proyecto_Micros.c: 181:             }else if (valorSLIDE == 3){
+}
+[e $U 194  ]
+[e :U 193 ]
+[e $ ! == -> _valorSLIDE `i -> 3 `i 195  ]
+{
+"182
+[; ;Proyecto_Micros.c: 182:                 selectSERVO = 3;
+[e = _selectSERVO -> -> 3 `i `uc ]
+"183
+[; ;Proyecto_Micros.c: 183:             }else if (valorSLIDE == 4){
+}
+[e $U 196  ]
+[e :U 195 ]
+[e $ ! == -> _valorSLIDE `i -> 4 `i 197  ]
+{
+"184
+[; ;Proyecto_Micros.c: 184:                 selectSERVO = 4;
+[e = _selectSERVO -> -> 4 `i `uc ]
+"185
+[; ;Proyecto_Micros.c: 185:             }else if (valorSLIDE == 255){
+}
+[e $U 198  ]
+[e :U 197 ]
+[e $ ! == -> _valorSLIDE `i -> 255 `i 199  ]
+{
+"186
+[; ;Proyecto_Micros.c: 186:                 status = 1;
+[e = _status -> -> 1 `i `uc ]
+"187
+[; ;Proyecto_Micros.c: 187:                 valorSLIDE = 0;
+[e = _valorSLIDE -> -> 0 `i `uc ]
+"188
+[; ;Proyecto_Micros.c: 188:             }else {
+}
+[e $U 200  ]
+[e :U 199 ]
+{
+"189
+[; ;Proyecto_Micros.c: 189:                 if (selectSERVO == 1){
+[e $ ! == -> _selectSERVO `i -> 1 `i 201  ]
+{
+"190
+[; ;Proyecto_Micros.c: 190:                     valor_mapeado0 = map(valorSLIDE,0,255,30,60);
+[e = _valor_mapeado0 -> ( _map (4 , , , , _valorSLIDE -> -> 0 `i `uc -> -> 255 `i `uc -> -> 30 `i `uc -> -> 60 `i `uc `i ]
+"191
+[; ;Proyecto_Micros.c: 191:                 }else if (selectSERVO == 2){
+}
+[e $U 202  ]
+[e :U 201 ]
+[e $ ! == -> _selectSERVO `i -> 2 `i 203  ]
+{
+"192
+[; ;Proyecto_Micros.c: 192:                     valor_mapeado1 = map(valorSLIDE,0,255,30,43);
+[e = _valor_mapeado1 -> ( _map (4 , , , , _valorSLIDE -> -> 0 `i `uc -> -> 255 `i `uc -> -> 30 `i `uc -> -> 43 `i `uc `i ]
+"193
+[; ;Proyecto_Micros.c: 193:                 }else if (selectSERVO == 3){
+}
+[e $U 204  ]
+[e :U 203 ]
+[e $ ! == -> _selectSERVO `i -> 3 `i 205  ]
+{
+"194
+[; ;Proyecto_Micros.c: 194:                     valor_mapeado2 = map(valorSLIDE,0,255,20,80);
+[e = _valor_mapeado2 -> ( _map (4 , , , , _valorSLIDE -> -> 0 `i `uc -> -> 255 `i `uc -> -> 20 `i `uc -> -> 80 `i `uc `i ]
+"195
+[; ;Proyecto_Micros.c: 195:                 }else if (selectSERVO == 4){
+}
+[e $U 206  ]
+[e :U 205 ]
+[e $ ! == -> _selectSERVO `i -> 4 `i 207  ]
+{
+"196
+[; ;Proyecto_Micros.c: 196:                     valor_mapeado3 = map(valorSLIDE,0,255,25,60);
+[e = _valor_mapeado3 -> ( _map (4 , , , , _valorSLIDE -> -> 0 `i `uc -> -> 255 `i `uc -> -> 25 `i `uc -> -> 60 `i `uc `i ]
+"197
+[; ;Proyecto_Micros.c: 197:                 }
+}
+[e :U 207 ]
+[e :U 206 ]
+[e :U 204 ]
+[e :U 202 ]
+"198
+[; ;Proyecto_Micros.c: 198:             }
+}
+[e :U 200 ]
+[e :U 198 ]
+[e :U 196 ]
+[e :U 194 ]
+[e :U 192 ]
+[e :U 190 ]
+"199
+[; ;Proyecto_Micros.c: 199:         }
+}
+[e :U 188 ]
+[e :U 187 ]
+"200
+[; ;Proyecto_Micros.c: 200:         PIR1bits.RCIF = 0;
+[e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
+"201
+[; ;Proyecto_Micros.c: 201:         PORTD = valorSLIDE;
+[e = _PORTD _valorSLIDE ]
+"202
+[; ;Proyecto_Micros.c: 202:     }
+}
+[e :U 152 ]
+"213
+[; ;Proyecto_Micros.c: 213:     if (RBIF) {
+[e $ ! _RBIF 208  ]
+{
+"215
+[; ;Proyecto_Micros.c: 215:         if (RB0 == 0) {
+[e $ ! == -> _RB0 `i -> 0 `i 209  ]
+{
+"216
+[; ;Proyecto_Micros.c: 216:             modo_funcionamiento ++;
+[e ++ _modo_funcionamiento -> -> 1 `i `uc ]
+"217
+[; ;Proyecto_Micros.c: 217:             if (modo_funcionamiento == 4){
+[e $ ! == -> _modo_funcionamiento `i -> 4 `i 210  ]
+{
+"218
+[; ;Proyecto_Micros.c: 218:                 modo_funcionamiento = 0;
+[e = _modo_funcionamiento -> -> 0 `i `uc ]
+"219
+[; ;Proyecto_Micros.c: 219:             }
+}
+[e :U 210 ]
+"220
+[; ;Proyecto_Micros.c: 220:         }
+}
+[e :U 209 ]
+"221
+[; ;Proyecto_Micros.c: 221:         if (RB1 == 0) {
+[e $ ! == -> _RB1 `i -> 0 `i 211  ]
+{
+"222
+[; ;Proyecto_Micros.c: 222:             activador_modo = activador_modo ^ 1;
+[e = _activador_modo -> ^ -> _activador_modo `i -> 1 `i `uc ]
+"223
+[; ;Proyecto_Micros.c: 223:         }
+}
+[e :U 211 ]
+"224
+[; ;Proyecto_Micros.c: 224:         if (RB2 == 0) {
+[e $ ! == -> _RB2 `i -> 0 `i 212  ]
+{
+"225
+[; ;Proyecto_Micros.c: 225:             if (modo_funcionamiento == 0 && activador_modo == 1){
+[e $ ! && == -> _modo_funcionamiento `i -> 0 `i == -> _activador_modo `i -> 1 `i 213  ]
+{
+"226
+[; ;Proyecto_Micros.c: 226:                 bandera1 = bandera1 ^ 1;
+[e = _bandera1 -> ^ -> _bandera1 `i -> 1 `i `uc ]
+"227
+[; ;Proyecto_Micros.c: 227:                 if (bandera1 == 0){
+[e $ ! == -> _bandera1 `i -> 0 `i 214  ]
+{
+"228
+[; ;Proyecto_Micros.c: 228:                     valor_mapeado0 = 25;
+[e = _valor_mapeado0 -> 25 `i ]
+"229
+[; ;Proyecto_Micros.c: 229:                     valor_mapeado3 = 25;
+[e = _valor_mapeado3 -> 25 `i ]
+"230
+[; ;Proyecto_Micros.c: 230:                 } else if (bandera1 == 1){
+}
+[e $U 215  ]
+[e :U 214 ]
+[e $ ! == -> _bandera1 `i -> 1 `i 216  ]
+{
+"231
+[; ;Proyecto_Micros.c: 231:                     valor_mapeado0 = 60;
+[e = _valor_mapeado0 -> 60 `i ]
+"232
+[; ;Proyecto_Micros.c: 232:                     valor_mapeado3 = 60;
+[e = _valor_mapeado3 -> 60 `i ]
+"233
+[; ;Proyecto_Micros.c: 233:                 }
+}
+[e :U 216 ]
+[e :U 215 ]
+"234
+[; ;Proyecto_Micros.c: 234:             }
+}
+[e :U 213 ]
+"235
+[; ;Proyecto_Micros.c: 235:         }
+}
+[e :U 212 ]
+"236
+[; ;Proyecto_Micros.c: 236:         if (RB3 == 0) {
+[e $ ! == -> _RB3 `i -> 0 `i 217  ]
+{
+"237
+[; ;Proyecto_Micros.c: 237:             if (modo_funcionamiento == 0 && activador_modo == 1){
+[e $ ! && == -> _modo_funcionamiento `i -> 0 `i == -> _activador_modo `i -> 1 `i 218  ]
+{
+"238
+[; ;Proyecto_Micros.c: 238:                 bandera2 = bandera2 ^ 1;
+[e = _bandera2 -> ^ -> _bandera2 `i -> 1 `i `uc ]
+"239
+[; ;Proyecto_Micros.c: 239:                 if (bandera2 == 0){
+[e $ ! == -> _bandera2 `i -> 0 `i 219  ]
+{
+"240
+[; ;Proyecto_Micros.c: 240:                     valor_mapeado1 = 20;
+[e = _valor_mapeado1 -> 20 `i ]
+"241
+[; ;Proyecto_Micros.c: 241:                     valor_mapeado2 = 20;
+[e = _valor_mapeado2 -> 20 `i ]
+"242
+[; ;Proyecto_Micros.c: 242:                 } else if (bandera2 == 1){
+}
+[e $U 220  ]
+[e :U 219 ]
+[e $ ! == -> _bandera2 `i -> 1 `i 221  ]
+{
+"243
+[; ;Proyecto_Micros.c: 243:                     valor_mapeado1 = 42;
+[e = _valor_mapeado1 -> 42 `i ]
+"244
+[; ;Proyecto_Micros.c: 244:                     valor_mapeado2 = 80;
+[e = _valor_mapeado2 -> 80 `i ]
+"245
+[; ;Proyecto_Micros.c: 245:                 }
+}
+[e :U 221 ]
+[e :U 220 ]
+"246
+[; ;Proyecto_Micros.c: 246:             }
+}
+[e :U 218 ]
+"247
+[; ;Proyecto_Micros.c: 247:         }
+}
+[e :U 217 ]
+"248
+[; ;Proyecto_Micros.c: 248:         if (RB4 == 0) {
+[e $ ! == -> _RB4 `i -> 0 `i 222  ]
+{
+"249
+[; ;Proyecto_Micros.c: 249:             if(modo_funcionamiento == 0 && activador_modo == 1){
+[e $ ! && == -> _modo_funcionamiento `i -> 0 `i == -> _activador_modo `i -> 1 `i 223  ]
+{
+"251
+[; ;Proyecto_Micros.c: 251:                 valor_mapeado0 = read_EEPROM(address0);
+[e = _valor_mapeado0 -> ( _read_EEPROM (1 _address0 `i ]
+"252
+[; ;Proyecto_Micros.c: 252:                 valor_mapeado1 = read_EEPROM(address1);
+[e = _valor_mapeado1 -> ( _read_EEPROM (1 _address1 `i ]
+"253
+[; ;Proyecto_Micros.c: 253:                 valor_mapeado2 = read_EEPROM(address2);
+[e = _valor_mapeado2 -> ( _read_EEPROM (1 _address2 `i ]
+"254
+[; ;Proyecto_Micros.c: 254:                 valor_mapeado3 = read_EEPROM(address3);
+[e = _valor_mapeado3 -> ( _read_EEPROM (1 _address3 `i ]
+"257
+[; ;Proyecto_Micros.c: 257:             } else if(modo_funcionamiento == 1 && activador_modo == 1){
+}
+[e $U 224  ]
+[e :U 223 ]
+[e $ ! && == -> _modo_funcionamiento `i -> 1 `i == -> _activador_modo `i -> 1 `i 225  ]
+{
+"259
+[; ;Proyecto_Micros.c: 259:                 write_EEPROM(address0, valor_mapeado0);
+[e ( _write_EEPROM (2 , _address0 -> _valor_mapeado0 `uc ]
+"260
+[; ;Proyecto_Micros.c: 260:                 write_EEPROM(address1, valor_mapeado1);
+[e ( _write_EEPROM (2 , _address1 -> _valor_mapeado1 `uc ]
+"261
+[; ;Proyecto_Micros.c: 261:                 write_EEPROM(address2, valor_mapeado2);
+[e ( _write_EEPROM (2 , _address2 -> _valor_mapeado2 `uc ]
+"262
+[; ;Proyecto_Micros.c: 262:                 write_EEPROM(address3, valor_mapeado3);
+[e ( _write_EEPROM (2 , _address3 -> _valor_mapeado3 `uc ]
+"264
+[; ;Proyecto_Micros.c: 264:             } else if(modo_funcionamiento == 2 && activador_modo == 1){
+}
+[e $U 226  ]
+[e :U 225 ]
+[e $ ! && == -> _modo_funcionamiento `i -> 2 `i == -> _activador_modo `i -> 1 `i 227  ]
+{
+"266
+[; ;Proyecto_Micros.c: 266:             } else if(modo_funcionamiento == 3 && activador_modo == 1){
+}
+[e $U 228  ]
+[e :U 227 ]
+[e $ ! && == -> _modo_funcionamiento `i -> 3 `i == -> _activador_modo `i -> 1 `i 229  ]
+{
+"268
+[; ;Proyecto_Micros.c: 268:             }
+}
+[e :U 229 ]
+[e :U 228 ]
+[e :U 226 ]
+[e :U 224 ]
+"269
+[; ;Proyecto_Micros.c: 269:         }
+}
+[e :U 222 ]
+"270
+[; ;Proyecto_Micros.c: 270:     }
+}
+[e :U 208 ]
+"272
+[; ;Proyecto_Micros.c: 272:         RBIF = 0;
+[e = _RBIF -> -> 0 `i `b ]
+"273
+[; ;Proyecto_Micros.c: 273:          _delay((unsigned long)((2)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"274
+[; ;Proyecto_Micros.c: 274:         return;
+[e $UE 143  ]
+"275
+[; ;Proyecto_Micros.c: 275: }
+[e :UE 143 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"279
+[; ;Proyecto_Micros.c: 279: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"280
+[; ;Proyecto_Micros.c: 280: {
+{
+[e :U _main ]
+[f ]
+"281
+[; ;Proyecto_Micros.c: 281:     setup();
+[e ( _setup ..  ]
+"283
+[; ;Proyecto_Micros.c: 283:     while(1)
+[e :U 232 ]
+"284
+[; ;Proyecto_Micros.c: 284:     {
+{
+"285
+[; ;Proyecto_Micros.c: 285:         if (modo_funcionamiento == 0){
+[e $ ! == -> _modo_funcionamiento `i -> 0 `i 234  ]
+{
+"286
+[; ;Proyecto_Micros.c: 286:             PORTE = 0b111;
+[e = _PORTE -> -> 7 `i `uc ]
+"287
+[; ;Proyecto_Micros.c: 287:             if (activador_modo == 1){
+[e $ ! == -> _activador_modo `i -> 1 `i 235  ]
+{
+"289
+[; ;Proyecto_Micros.c: 289:                 ADCON0bits.ADON = 0;
+[e = . . _ADCON0bits 0 0 -> -> 0 `i `uc ]
+"290
+[; ;Proyecto_Micros.c: 290:                 valor_mapeado0 = read_EEPROM(address0);
+[e = _valor_mapeado0 -> ( _read_EEPROM (1 _address0 `i ]
+"291
+[; ;Proyecto_Micros.c: 291:                 valor_mapeado1 = read_EEPROM(address1);
+[e = _valor_mapeado1 -> ( _read_EEPROM (1 _address1 `i ]
+"292
+[; ;Proyecto_Micros.c: 292:                 valor_mapeado2 = read_EEPROM(address2);
+[e = _valor_mapeado2 -> ( _read_EEPROM (1 _address2 `i ]
+"293
+[; ;Proyecto_Micros.c: 293:                 valor_mapeado3 = read_EEPROM(address3);
+[e = _valor_mapeado3 -> ( _read_EEPROM (1 _address3 `i ]
+"295
+[; ;Proyecto_Micros.c: 295:                 PWM_config(1, 20);
+[e ( _PWM_config (2 , -> 1 `i -> -> 20 `i `f ]
+"296
+[; ;Proyecto_Micros.c: 296:                 PWM_config(2, 20);
+[e ( _PWM_config (2 , -> 2 `i -> -> 20 `i `f ]
+"297
+[; ;Proyecto_Micros.c: 297:                 PWM_manual_config(15);
+[e ( _PWM_manual_config (1 -> -> 15 `i `f ]
+"299
+[; ;Proyecto_Micros.c: 299:                 modo_automatico();
+[e ( _modo_automatico ..  ]
+"302
+[; ;Proyecto_Micros.c: 302:                 T2CONbits.TMR2ON = 0;
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+"303
+[; ;Proyecto_Micros.c: 303:                 OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"304
+[; ;Proyecto_Micros.c: 304:                 PORTC = 0;
+[e = _PORTC -> -> 0 `i `uc ]
+"305
+[; ;Proyecto_Micros.c: 305:                 PORTD = 0;
+[e = _PORTD -> -> 0 `i `uc ]
+"306
+[; ;Proyecto_Micros.c: 306:             }
+}
+[e :U 235 ]
+"307
+[; ;Proyecto_Micros.c: 307:         }
+}
+[e $U 236  ]
+"308
+[; ;Proyecto_Micros.c: 308:         else if (modo_funcionamiento == 1){
+[e :U 234 ]
+[e $ ! == -> _modo_funcionamiento `i -> 1 `i 237  ]
+{
+"309
+[; ;Proyecto_Micros.c: 309:             PORTE = 0b001;
+[e = _PORTE -> -> 1 `i `uc ]
+"310
+[; ;Proyecto_Micros.c: 310:             if (activador_modo == 1){
+[e $ ! == -> _activador_modo `i -> 1 `i 238  ]
+{
+"312
+[; ;Proyecto_Micros.c: 312:                 ADCON0bits.ADON = 1;
+[e = . . _ADCON0bits 0 0 -> -> 1 `i `uc ]
+"313
+[; ;Proyecto_Micros.c: 313:                 PWM_config(1, 20);
+[e ( _PWM_config (2 , -> 1 `i -> -> 20 `i `f ]
+"314
+[; ;Proyecto_Micros.c: 314:                 PWM_config(2, 20);
+[e ( _PWM_config (2 , -> 2 `i -> -> 20 `i `f ]
+"315
+[; ;Proyecto_Micros.c: 315:                 PWM_manual_config(15);
+[e ( _PWM_manual_config (1 -> -> 15 `i `f ]
+"317
+[; ;Proyecto_Micros.c: 317:                 modo_manual();
+[e ( _modo_manual ..  ]
+"320
+[; ;Proyecto_Micros.c: 320:                 ADCON0bits.ADON = 0;
+[e = . . _ADCON0bits 0 0 -> -> 0 `i `uc ]
+"321
+[; ;Proyecto_Micros.c: 321:                 T2CONbits.TMR2ON = 0;
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+"322
+[; ;Proyecto_Micros.c: 322:                 OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"323
+[; ;Proyecto_Micros.c: 323:                 PORTC = 0;
+[e = _PORTC -> -> 0 `i `uc ]
+"324
+[; ;Proyecto_Micros.c: 324:                 PORTD = 0;
+[e = _PORTD -> -> 0 `i `uc ]
+"325
+[; ;Proyecto_Micros.c: 325:             }
+}
+[e :U 238 ]
+"326
+[; ;Proyecto_Micros.c: 326:         }
+}
+[e $U 239  ]
+"327
+[; ;Proyecto_Micros.c: 327:         else if (modo_funcionamiento == 2){
+[e :U 237 ]
+[e $ ! == -> _modo_funcionamiento `i -> 2 `i 240  ]
+{
+"328
+[; ;Proyecto_Micros.c: 328:             PORTE = 0b010;
+[e = _PORTE -> -> 2 `i `uc ]
+"329
+[; ;Proyecto_Micros.c: 329:             if (activador_modo == 1){
+[e $ ! == -> _activador_modo `i -> 1 `i 241  ]
+{
+"331
+[; ;Proyecto_Micros.c: 331:                 OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"332
+[; ;Proyecto_Micros.c: 332:                 valor_mapeado0 = 20;
+[e = _valor_mapeado0 -> 20 `i ]
+"333
+[; ;Proyecto_Micros.c: 333:                 valor_mapeado1 = 20;
+[e = _valor_mapeado1 -> 20 `i ]
+"334
+[; ;Proyecto_Micros.c: 334:                 valor_mapeado2 = 20;
+[e = _valor_mapeado2 -> 20 `i ]
+"335
+[; ;Proyecto_Micros.c: 335:                 valor_mapeado3 = 20;
+[e = _valor_mapeado3 -> 20 `i ]
+"336
+[; ;Proyecto_Micros.c: 336:                 PWM_config(1, 20);
+[e ( _PWM_config (2 , -> 1 `i -> -> 20 `i `f ]
+"337
+[; ;Proyecto_Micros.c: 337:                 PWM_config(2, 20);
+[e ( _PWM_config (2 , -> 2 `i -> -> 20 `i `f ]
+"338
+[; ;Proyecto_Micros.c: 338:                 PWM_manual_config(15);
+[e ( _PWM_manual_config (1 -> -> 15 `i `f ]
+"339
+[; ;Proyecto_Micros.c: 339:                 initUART();
+[e ( _initUART ..  ]
+"341
+[; ;Proyecto_Micros.c: 341:                 modo_uart();
+[e ( _modo_uart ..  ]
+"344
+[; ;Proyecto_Micros.c: 344:                 T2CONbits.TMR2ON = 0;
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+"345
+[; ;Proyecto_Micros.c: 345:                 OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"346
+[; ;Proyecto_Micros.c: 346:                 PORTC = 0;
+[e = _PORTC -> -> 0 `i `uc ]
+"347
+[; ;Proyecto_Micros.c: 347:                 PORTD = 0;
+[e = _PORTD -> -> 0 `i `uc ]
+"348
+[; ;Proyecto_Micros.c: 348:             }
+}
+[e :U 241 ]
+"349
+[; ;Proyecto_Micros.c: 349:         }
+}
+[e $U 242  ]
+"350
+[; ;Proyecto_Micros.c: 350:         else if (modo_funcionamiento == 3){
+[e :U 240 ]
+[e $ ! == -> _modo_funcionamiento `i -> 3 `i 243  ]
+{
+"351
+[; ;Proyecto_Micros.c: 351:             PORTE = 0b100;
+[e = _PORTE -> -> 4 `i `uc ]
+"352
+[; ;Proyecto_Micros.c: 352:             if (activador_modo == 1){
+[e $ ! == -> _activador_modo `i -> 1 `i 244  ]
+{
+"353
+[; ;Proyecto_Micros.c: 353:                 PIE1bits.RCIE = 1;
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"354
+[; ;Proyecto_Micros.c: 354:                 OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"355
+[; ;Proyecto_Micros.c: 355:                 initUART();
+[e ( _initUART ..  ]
+"356
+[; ;Proyecto_Micros.c: 356:                 RCSTAbits.SPEN = 1;
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"357
+[; ;Proyecto_Micros.c: 357:                 }
+}
+[e :U 244 ]
+"358
+[; ;Proyecto_Micros.c: 358:             while (activador_modo == 1){
+[e $U 245  ]
+[e :U 246 ]
+{
+"359
+[; ;Proyecto_Micros.c: 359:                 if (status == 1){
+[e $ ! == -> _status `i -> 1 `i 248  ]
+{
+"361
+[; ;Proyecto_Micros.c: 361:                     PIE1bits.RCIE = 0;
+[e = . . _PIE1bits 0 5 -> -> 0 `i `uc ]
+"362
+[; ;Proyecto_Micros.c: 362:                     RCSTAbits.SPEN = 0;
+[e = . . _RCSTAbits 0 7 -> -> 0 `i `uc ]
+"363
+[; ;Proyecto_Micros.c: 363:                     OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"364
+[; ;Proyecto_Micros.c: 364:                     PWM_config(1, 20);
+[e ( _PWM_config (2 , -> 1 `i -> -> 20 `i `f ]
+"365
+[; ;Proyecto_Micros.c: 365:                     PWM_config(2, 20);
+[e ( _PWM_config (2 , -> 2 `i -> -> 20 `i `f ]
+"366
+[; ;Proyecto_Micros.c: 366:                     PWM_manual_config(15);
+[e ( _PWM_manual_config (1 -> -> 15 `i `f ]
+"368
+[; ;Proyecto_Micros.c: 368:                     modo_automatico();
+[e ( _modo_automatico ..  ]
+"371
+[; ;Proyecto_Micros.c: 371:                     T2CONbits.TMR2ON = 0;
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+"372
+[; ;Proyecto_Micros.c: 372:                     OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"373
+[; ;Proyecto_Micros.c: 373:                     PORTC = 0;
+[e = _PORTC -> -> 0 `i `uc ]
+"374
+[; ;Proyecto_Micros.c: 374:                     PORTD = 0;
+[e = _PORTD -> -> 0 `i `uc ]
+"375
+[; ;Proyecto_Micros.c: 375:                 }
+}
+[e :U 248 ]
+"377
+[; ;Proyecto_Micros.c: 377:                 if (activador_modo == 0){
+[e $ ! == -> _activador_modo `i -> 0 `i 249  ]
+{
+"378
+[; ;Proyecto_Micros.c: 378:                     status = 0;
+[e = _status -> -> 0 `i `uc ]
+"379
+[; ;Proyecto_Micros.c: 379:                     PORTD = 129;
+[e = _PORTD -> -> 129 `i `uc ]
+"380
+[; ;Proyecto_Micros.c: 380:                     break;
+[e $U 247  ]
+"381
+[; ;Proyecto_Micros.c: 381:                 }
+}
+[e :U 249 ]
+"382
+[; ;Proyecto_Micros.c: 382:             }
+}
+[e :U 245 ]
+"358
+[; ;Proyecto_Micros.c: 358:             while (activador_modo == 1){
+[e $ == -> _activador_modo `i -> 1 `i 246  ]
+[e :U 247 ]
+"383
+[; ;Proyecto_Micros.c: 383:         }
+}
+[e :U 243 ]
+[e :U 242 ]
+[e :U 239 ]
+[e :U 236 ]
+"385
+[; ;Proyecto_Micros.c: 385:     }
+}
+[e :U 231 ]
+[e $U 232  ]
+[e :U 233 ]
+"386
+[; ;Proyecto_Micros.c: 386: }
+[e :UE 230 ]
+}
+"390
+[; ;Proyecto_Micros.c: 390: void modo_automatico(void){
+[v _modo_automatico `(v ~T0 @X0 1 ef ]
+{
+[e :U _modo_automatico ]
+[f ]
+"391
+[; ;Proyecto_Micros.c: 391:     while (1){
+[e :U 252 ]
+{
+"392
+[; ;Proyecto_Micros.c: 392:         T2CONbits.TMR2ON = 0;
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+"393
+[; ;Proyecto_Micros.c: 393:         OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"394
+[; ;Proyecto_Micros.c: 394:         PWM_manual(valor_mapeado0, 0b1);
+[e ( _PWM_manual (2 , _valor_mapeado0 -> 1 `i ]
+"395
+[; ;Proyecto_Micros.c: 395:         PWM_manual(valor_mapeado3, 0b1000);
+[e ( _PWM_manual (2 , _valor_mapeado3 -> 8 `i ]
+"397
+[; ;Proyecto_Micros.c: 397:         OSCCONbits.IRCF = 0b011;
+[e = . . _OSCCONbits 0 4 -> -> 3 `i `uc ]
+"398
+[; ;Proyecto_Micros.c: 398:         T2CONbits.TMR2ON = 1;
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+"399
+[; ;Proyecto_Micros.c: 399:         PWM_duty(2,valor_mapeado1);
+[e ( _PWM_duty (2 , -> 2 `i _valor_mapeado1 ]
+"400
+[; ;Proyecto_Micros.c: 400:         PWM_duty(1,valor_mapeado2);
+[e ( _PWM_duty (2 , -> 1 `i _valor_mapeado2 ]
+"402
+[; ;Proyecto_Micros.c: 402:         _delay((unsigned long)((20)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"403
+[; ;Proyecto_Micros.c: 403:         T2CONbits.TMR2ON = 0;
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+"404
+[; ;Proyecto_Micros.c: 404:         OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"406
+[; ;Proyecto_Micros.c: 406:         if (activador_modo == 0){
+[e $ ! == -> _activador_modo `i -> 0 `i 254  ]
+{
+"407
+[; ;Proyecto_Micros.c: 407:             break;
+[e $U 253  ]
+"408
+[; ;Proyecto_Micros.c: 408:         }
+}
+[e :U 254 ]
+"409
+[; ;Proyecto_Micros.c: 409:     }
+}
+[e :U 251 ]
+[e $U 252  ]
+[e :U 253 ]
+"410
+[; ;Proyecto_Micros.c: 410: }
+[e :UE 250 ]
+}
+"412
+[; ;Proyecto_Micros.c: 412: void modo_manual(void){
+[v _modo_manual `(v ~T0 @X0 1 ef ]
+{
+[e :U _modo_manual ]
+[f ]
+"413
+[; ;Proyecto_Micros.c: 413:     while (1){
+[e :U 257 ]
+{
+"414
+[; ;Proyecto_Micros.c: 414:         if (ADCON0bits.GO == 0){
+[e $ ! == -> . . _ADCON0bits 1 1 `i -> 0 `i 259  ]
+{
+"415
+[; ;Proyecto_Micros.c: 415:             ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 1 1 -> -> 1 `i `uc ]
+"416
+[; ;Proyecto_Micros.c: 416:             _delay((unsigned long)((2)*(500000/4000000.0)));
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 500000 `l `d .4000000.0 `ul ]
+"417
+[; ;Proyecto_Micros.c: 417:         }
+}
+[e :U 259 ]
+"418
+[; ;Proyecto_Micros.c: 418:         valor_mapeado0 = map(adc00,0,255,30,60);
+[e = _valor_mapeado0 -> ( _map (4 , , , , -> _adc00 `uc -> -> 0 `i `uc -> -> 255 `i `uc -> -> 30 `i `uc -> -> 60 `i `uc `i ]
+"419
+[; ;Proyecto_Micros.c: 419:         valor_mapeado1 = map(adc01,0,255,30,43);
+[e = _valor_mapeado1 -> ( _map (4 , , , , -> _adc01 `uc -> -> 0 `i `uc -> -> 255 `i `uc -> -> 30 `i `uc -> -> 43 `i `uc `i ]
+"420
+[; ;Proyecto_Micros.c: 420:         valor_mapeado2 = map(adc10,0,255,20,80);
+[e = _valor_mapeado2 -> ( _map (4 , , , , -> _adc10 `uc -> -> 0 `i `uc -> -> 255 `i `uc -> -> 20 `i `uc -> -> 80 `i `uc `i ]
+"421
+[; ;Proyecto_Micros.c: 421:         valor_mapeado3 = map(adc11,0,255,25,60);
+[e = _valor_mapeado3 -> ( _map (4 , , , , -> _adc11 `uc -> -> 0 `i `uc -> -> 255 `i `uc -> -> 25 `i `uc -> -> 60 `i `uc `i ]
+"423
+[; ;Proyecto_Micros.c: 423:         T2CONbits.TMR2ON = 0;
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+"424
+[; ;Proyecto_Micros.c: 424:         OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"425
+[; ;Proyecto_Micros.c: 425:         PWM_manual(valor_mapeado0, 0b1);
+[e ( _PWM_manual (2 , _valor_mapeado0 -> 1 `i ]
+"426
+[; ;Proyecto_Micros.c: 426:         PWM_manual(valor_mapeado3, 0b1000);
+[e ( _PWM_manual (2 , _valor_mapeado3 -> 8 `i ]
+"428
+[; ;Proyecto_Micros.c: 428:         OSCCONbits.IRCF = 0b011;
+[e = . . _OSCCONbits 0 4 -> -> 3 `i `uc ]
+"429
+[; ;Proyecto_Micros.c: 429:         T2CONbits.TMR2ON = 1;
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+"430
+[; ;Proyecto_Micros.c: 430:         PWM_duty(2,valor_mapeado1);
+[e ( _PWM_duty (2 , -> 2 `i _valor_mapeado1 ]
+"431
+[; ;Proyecto_Micros.c: 431:         PWM_duty(1,valor_mapeado2);
+[e ( _PWM_duty (2 , -> 1 `i _valor_mapeado2 ]
+"433
+[; ;Proyecto_Micros.c: 433:         if (activador_modo == 0){
+[e $ ! == -> _activador_modo `i -> 0 `i 260  ]
+{
+"434
+[; ;Proyecto_Micros.c: 434:             break;
+[e $U 258  ]
+"435
+[; ;Proyecto_Micros.c: 435:         }
+}
+[e :U 260 ]
+"436
+[; ;Proyecto_Micros.c: 436:     }
+}
+[e :U 256 ]
+[e $U 257  ]
+[e :U 258 ]
+"437
+[; ;Proyecto_Micros.c: 437: }
+[e :UE 255 ]
+}
+"438
+[; ;Proyecto_Micros.c: 438: void modo_uart(void){
+[v _modo_uart `(v ~T0 @X0 1 ef ]
+{
+[e :U _modo_uart ]
+[f ]
+"439
+[; ;Proyecto_Micros.c: 439:     while (1){
+[e :U 263 ]
+{
+"440
+[; ;Proyecto_Micros.c: 440:         RCSTAbits.SPEN = 1;
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"441
+[; ;Proyecto_Micros.c: 441:         TXREG = valor_mapeado0;
+[e = _TXREG -> _valor_mapeado0 `uc ]
+"442
+[; ;Proyecto_Micros.c: 442:         _delay((unsigned long)((30)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"443
+[; ;Proyecto_Micros.c: 443:          TXREG = '\n';
+[e = _TXREG -> -> 10 `ui `uc ]
+"444
+[; ;Proyecto_Micros.c: 444:         _delay((unsigned long)((30)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"445
+[; ;Proyecto_Micros.c: 445:         TXREG = valor_mapeado1;
+[e = _TXREG -> _valor_mapeado1 `uc ]
+"446
+[; ;Proyecto_Micros.c: 446:         _delay((unsigned long)((30)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"447
+[; ;Proyecto_Micros.c: 447:          TXREG = '\n';
+[e = _TXREG -> -> 10 `ui `uc ]
+"448
+[; ;Proyecto_Micros.c: 448:         _delay((unsigned long)((30)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"449
+[; ;Proyecto_Micros.c: 449:         TXREG = valor_mapeado2;
+[e = _TXREG -> _valor_mapeado2 `uc ]
+"450
+[; ;Proyecto_Micros.c: 450:         _delay((unsigned long)((30)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"451
+[; ;Proyecto_Micros.c: 451:         TXREG = '\n';
+[e = _TXREG -> -> 10 `ui `uc ]
+"452
+[; ;Proyecto_Micros.c: 452:         _delay((unsigned long)((30)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"453
+[; ;Proyecto_Micros.c: 453:         TXREG = valor_mapeado3;
+[e = _TXREG -> _valor_mapeado3 `uc ]
+"454
+[; ;Proyecto_Micros.c: 454:         _delay((unsigned long)((30)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"455
+[; ;Proyecto_Micros.c: 455:         TXREG = '\n';
+[e = _TXREG -> -> 10 `ui `uc ]
+"456
+[; ;Proyecto_Micros.c: 456:         _delay((unsigned long)((30)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"458
+[; ;Proyecto_Micros.c: 458:         RCSTAbits.SPEN = 0;
+[e = . . _RCSTAbits 0 7 -> -> 0 `i `uc ]
+"460
+[; ;Proyecto_Micros.c: 460:         T2CONbits.TMR2ON = 0;
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+"461
+[; ;Proyecto_Micros.c: 461:         OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"462
+[; ;Proyecto_Micros.c: 462:         PWM_manual(valor_mapeado0, 0b1);
+[e ( _PWM_manual (2 , _valor_mapeado0 -> 1 `i ]
+"463
+[; ;Proyecto_Micros.c: 463:         PWM_manual(valor_mapeado3, 0b1000);
+[e ( _PWM_manual (2 , _valor_mapeado3 -> 8 `i ]
+"465
+[; ;Proyecto_Micros.c: 465:         OSCCONbits.IRCF = 0b011;
+[e = . . _OSCCONbits 0 4 -> -> 3 `i `uc ]
+"466
+[; ;Proyecto_Micros.c: 466:         T2CONbits.TMR2ON = 1;
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+"467
+[; ;Proyecto_Micros.c: 467:         PWM_duty(2,valor_mapeado1);
+[e ( _PWM_duty (2 , -> 2 `i _valor_mapeado1 ]
+"468
+[; ;Proyecto_Micros.c: 468:         PWM_duty(1,valor_mapeado2);
+[e ( _PWM_duty (2 , -> 1 `i _valor_mapeado2 ]
+"469
+[; ;Proyecto_Micros.c: 469:         _delay((unsigned long)((20)*(500000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 500000 `l `d .4000.0 `ul ]
+"471
+[; ;Proyecto_Micros.c: 471:         T2CONbits.TMR2ON = 0;
+[e = . . _T2CONbits 0 1 -> -> 0 `i `uc ]
+"472
+[; ;Proyecto_Micros.c: 472:         OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"473
+[; ;Proyecto_Micros.c: 473:         if (activador_modo == 0){
+[e $ ! == -> _activador_modo `i -> 0 `i 265  ]
+{
+"474
+[; ;Proyecto_Micros.c: 474:             break;
+[e $U 264  ]
+"475
+[; ;Proyecto_Micros.c: 475:         }
+}
+[e :U 265 ]
+"476
+[; ;Proyecto_Micros.c: 476:     }
+}
+[e :U 262 ]
+[e $U 263  ]
+[e :U 264 ]
+"477
+[; ;Proyecto_Micros.c: 477: }
+[e :UE 261 ]
+}
+"479
+[; ;Proyecto_Micros.c: 479: void initUART(void){
+[v _initUART `(v ~T0 @X0 1 ef ]
+{
+[e :U _initUART ]
+[f ]
+"505
+[; ;Proyecto_Micros.c: 505:     SPBRG = 12;
+[e = _SPBRG -> -> 12 `i `uc ]
+"506
+[; ;Proyecto_Micros.c: 506:     SPBRGH = 0;
+[e = _SPBRGH -> -> 0 `i `uc ]
+"507
+[; ;Proyecto_Micros.c: 507:     BRGH = 0;
+[e = _BRGH -> -> 0 `i `b ]
+"508
+[; ;Proyecto_Micros.c: 508:     BRG16 = 0;
+[e = _BRG16 -> -> 0 `i `b ]
+"511
+[; ;Proyecto_Micros.c: 511:     SYNC = 0;
+[e = _SYNC -> -> 0 `i `b ]
+"512
+[; ;Proyecto_Micros.c: 512:     SPEN = 1;
+[e = _SPEN -> -> 1 `i `b ]
+"517
+[; ;Proyecto_Micros.c: 517:     TXEN = 1;
+[e = _TXEN -> -> 1 `i `b ]
+"518
+[; ;Proyecto_Micros.c: 518:     TXIF = 0;
+[e = _TXIF -> -> 0 `i `b ]
+"520
+[; ;Proyecto_Micros.c: 520:     CREN = 1;
+[e = _CREN -> -> 1 `i `b ]
+"521
+[; ;Proyecto_Micros.c: 521:     RCIF = 0;
+[e = _RCIF -> -> 0 `i `b ]
+"528
+[; ;Proyecto_Micros.c: 528: }
+[e :UE 266 ]
+}
+"530
+[; ;Proyecto_Micros.c: 530: void setup(void)
+[v _setup `(v ~T0 @X0 1 ef ]
+"531
+[; ;Proyecto_Micros.c: 531: {
+{
+[e :U _setup ]
+[f ]
+"533
+[; ;Proyecto_Micros.c: 533:     ANSELH = 0;
+[e = _ANSELH -> -> 0 `i `uc ]
+"535
+[; ;Proyecto_Micros.c: 535:     TRISB = 0b11111;
+[e = _TRISB -> -> 31 `i `uc ]
+"536
+[; ;Proyecto_Micros.c: 536:     TRISD = 0;
+[e = _TRISD -> -> 0 `i `uc ]
+"537
+[; ;Proyecto_Micros.c: 537:     TRISE = 0;
+[e = _TRISE -> -> 0 `i `uc ]
+"539
+[; ;Proyecto_Micros.c: 539:     PORTD = 0;
+[e = _PORTD -> -> 0 `i `uc ]
+"540
+[; ;Proyecto_Micros.c: 540:     PORTE = 0;
+[e = _PORTE -> -> 0 `i `uc ]
+"541
+[; ;Proyecto_Micros.c: 541:     PORTA = 0;
+[e = _PORTA -> -> 0 `i `uc ]
+"544
+[; ;Proyecto_Micros.c: 544:     OPTION_REGbits.nRBPU = 0;
+[e = . . _OPTION_REGbits 0 5 -> -> 0 `i `uc ]
+"545
+[; ;Proyecto_Micros.c: 545:     WPUB = 0b11111;
+[e = _WPUB -> -> 31 `i `uc ]
+"546
+[; ;Proyecto_Micros.c: 546:     IOCB = 0b11111;
+[e = _IOCB -> -> 31 `i `uc ]
+"549
+[; ;Proyecto_Micros.c: 549:     OSCCONbits.IRCF = 0b111;
+[e = . . _OSCCONbits 0 4 -> -> 7 `i `uc ]
+"550
+[; ;Proyecto_Micros.c: 550:     OSCCONbits.SCS = 1;
+[e = . . _OSCCONbits 0 0 -> -> 1 `i `uc ]
+"553
+[; ;Proyecto_Micros.c: 553:     PIR1bits.ADIF = 0;
+[e = . . _PIR1bits 0 6 -> -> 0 `i `uc ]
+"554
+[; ;Proyecto_Micros.c: 554:     PIE1bits.ADIE = 1;
+[e = . . _PIE1bits 0 6 -> -> 1 `i `uc ]
+"555
+[; ;Proyecto_Micros.c: 555:     PIE1bits.RCIE = 1;
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"556
+[; ;Proyecto_Micros.c: 556:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"557
+[; ;Proyecto_Micros.c: 557:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"558
+[; ;Proyecto_Micros.c: 558:     INTCONbits.RBIF = 0;
+[e = . . _INTCONbits 0 0 -> -> 0 `i `uc ]
+"559
+[; ;Proyecto_Micros.c: 559:     INTCONbits.RBIE = 1;
+[e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
+"562
+[; ;Proyecto_Micros.c: 562:     ANSEL = 0b1111;
+[e = _ANSEL -> -> 15 `i `uc ]
+"563
+[; ;Proyecto_Micros.c: 563:     TRISA = 0b1111;
+[e = _TRISA -> -> 15 `i `uc ]
+"564
+[; ;Proyecto_Micros.c: 564:     ADCON0bits.ADCS = 0b10;
+[e = . . _ADCON0bits 0 3 -> -> 2 `i `uc ]
+"565
+[; ;Proyecto_Micros.c: 565:     ADCON0bits.CHS = 0b0000;
+[e = . . _ADCON0bits 0 2 -> -> 0 `i `uc ]
+"566
+[; ;Proyecto_Micros.c: 566:     ADCON1bits.ADFM = 0;
+[e = . . _ADCON1bits 0 4 -> -> 0 `i `uc ]
+"567
+[; ;Proyecto_Micros.c: 567:     ADCON1bits.VCFG0 = 0;
+[e = . . _ADCON1bits 0 1 -> -> 0 `i `uc ]
+"568
+[; ;Proyecto_Micros.c: 568:     ADCON1bits.VCFG1 = 0;
+[e = . . _ADCON1bits 0 2 -> -> 0 `i `uc ]
+"569
+[; ;Proyecto_Micros.c: 569:     ADCON0bits.ADON = 0;
+[e = . . _ADCON0bits 0 0 -> -> 0 `i `uc ]
+"571
+[; ;Proyecto_Micros.c: 571:     return;
+[e $UE 267  ]
+"572
+[; ;Proyecto_Micros.c: 572: }
+[e :UE 267 ]
+}
+"574
+[; ;Proyecto_Micros.c: 574: uint8_t map(uint8_t valor, uint8_t rango_min, uint8_t rango_max, uint8_t nuevo_min, uint8_t nuevo_max){
+[v _map `(uc ~T0 @X0 1 ef5`uc`uc`uc`uc`uc ]
+{
+[e :U _map ]
+[v _valor `uc ~T0 @X0 1 r1 ]
+[v _rango_min `uc ~T0 @X0 1 r2 ]
+[v _rango_max `uc ~T0 @X0 1 r3 ]
+[v _nuevo_min `uc ~T0 @X0 1 r4 ]
+[v _nuevo_max `uc ~T0 @X0 1 r5 ]
+[f ]
+"575
+[; ;Proyecto_Micros.c: 575:     uint8_t nuevo_valor = nuevo_min + (valor - rango_min)*(nuevo_max - nuevo_min)/(rango_max - rango_min);
+[v _nuevo_valor `uc ~T0 @X0 1 a ]
+[e = _nuevo_valor -> + -> _nuevo_min `i / * - -> _valor `i -> _rango_min `i - -> _nuevo_max `i -> _nuevo_min `i - -> _rango_max `i -> _rango_min `i `uc ]
+"576
+[; ;Proyecto_Micros.c: 576:     return nuevo_valor;
+[e ) _nuevo_valor ]
+[e $UE 268  ]
+"577
+[; ;Proyecto_Micros.c: 577: }
+[e :UE 268 ]
+}
+"579
+[; ;Proyecto_Micros.c: 579: void write_EEPROM(uint8_t address, uint8_t data){
+[v _write_EEPROM `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _write_EEPROM ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[v _data `uc ~T0 @X0 1 r2 ]
+[f ]
+"580
+[; ;Proyecto_Micros.c: 580:     while (WR){;}
+[e $U 270  ]
+[e :U 271 ]
+{
+}
+[e :U 270 ]
+[e $ _WR 271  ]
+[e :U 272 ]
+"581
+[; ;Proyecto_Micros.c: 581:     EEADR = address;
+[e = _EEADR _address ]
+"582
+[; ;Proyecto_Micros.c: 582:     EEDAT = data;
+[e = _EEDAT _data ]
+"584
+[; ;Proyecto_Micros.c: 584:     EECON1bits.EEPGD = 0;
+[e = . . _EECON1bits 0 5 -> -> 0 `i `uc ]
+"585
+[; ;Proyecto_Micros.c: 585:     EECON1bits.WREN = 1;
+[e = . . _EECON1bits 0 2 -> -> 1 `i `uc ]
+"586
+[; ;Proyecto_Micros.c: 586:     INTCONbits.GIE = 0;
+[e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
+"589
+[; ;Proyecto_Micros.c: 589:     EECON2 = 0x55;
+[e = _EECON2 -> -> 85 `i `uc ]
+"590
+[; ;Proyecto_Micros.c: 590:     EECON2 = 0xAA;
+[e = _EECON2 -> -> 170 `i `uc ]
+"591
+[; ;Proyecto_Micros.c: 591:     EECON1bits.WR = 1;
+[e = . . _EECON1bits 0 1 -> -> 1 `i `uc ]
+"592
+[; ;Proyecto_Micros.c: 592:     EECON1bits.WREN = 0;
+[e = . . _EECON1bits 0 2 -> -> 0 `i `uc ]
+"594
+[; ;Proyecto_Micros.c: 594:     INTCONbits.RBIF = 0;
+[e = . . _INTCONbits 0 0 -> -> 0 `i `uc ]
+"595
+[; ;Proyecto_Micros.c: 595:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"597
+[; ;Proyecto_Micros.c: 597: }
+[e :UE 269 ]
+}
+"599
+[; ;Proyecto_Micros.c: 599: uint8_t read_EEPROM(uint8_t address){
+[v _read_EEPROM `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _read_EEPROM ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[f ]
+"600
+[; ;Proyecto_Micros.c: 600:     while (WR||RD){;}
+[e $U 274  ]
+[e :U 275 ]
+{
+}
+[e :U 274 ]
+[e $ || _WR _RD 275  ]
+[e :U 276 ]
+"601
+[; ;Proyecto_Micros.c: 601:     EEADR = address ;
+[e = _EEADR _address ]
+"602
+[; ;Proyecto_Micros.c: 602:     EECON1bits.EEPGD = 0;
+[e = . . _EECON1bits 0 5 -> -> 0 `i `uc ]
+"603
+[; ;Proyecto_Micros.c: 603:     EECON1bits.RD = 1;
+[e = . . _EECON1bits 0 0 -> -> 1 `i `uc ]
+"604
+[; ;Proyecto_Micros.c: 604:     return EEDAT;
+[e ) _EEDAT ]
+[e $UE 273  ]
+"605
+[; ;Proyecto_Micros.c: 605: }
+[e :UE 273 ]
+}
